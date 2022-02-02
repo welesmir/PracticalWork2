@@ -15,6 +15,7 @@ public class Task22 {
         Date resultdate = new Date(yourmilliseconds);
         System.out.println("сегодня(сечас): " + sdf.format(resultdate));
 
+
         //сколько прошло дней - сам вычисляю
         long day_cnt = yourmilliseconds / (24*60*60*1000);
 //        System.out.println("от 01.01.1970 прошло: ");
