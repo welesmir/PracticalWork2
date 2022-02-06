@@ -11,6 +11,7 @@ public class Task23 {
         out.println("base var_2: " + var_2);
         out.println("---------------------");
 
+
         var_1 = var_1 + var_2;
         out.println("сумма переменных: " + var_1);
         var_2 = var_1 - var_2;
